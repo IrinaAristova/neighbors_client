@@ -64,7 +64,7 @@ const Registration = () =>{
                 <input type="text" name="name" className="reg_form-control1" placeholder="Ваше ім’я*" required
                 onChange={handleChange}
                 />
-                <input type="email" name="email" className="reg_form-control2" placeholder="Ваш email*" required
+                <input type="text" name="email" className="reg_form-control2" placeholder="Ваш email*" required
                 onChange={handleChange}
                 />
                 <input type="phone" name="phone_number" className="reg_form-control3" placeholder="Ваш телефон*" required
