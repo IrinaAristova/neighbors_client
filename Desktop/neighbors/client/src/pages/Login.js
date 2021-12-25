@@ -59,7 +59,7 @@ const Login = () =>{
                         <header className="log_head-form">
                             <span styles={{"fontSize": "32px"}}>Вітаємо з поверненням на наш сайт!</span>
                         </header>
-                        <input type="email" name="email" className="log_form-control1" placeholder="Ваш email" required
+                        <input type="text" name="email" className="log_form-control1" placeholder="Ваш email" required
                         onChange={handleChange}
                         />
                         <input type="password" name="password" className="log_form-control2" placeholder="Пароль" required
